@@ -1,0 +1,128 @@
+.root
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+
+.form-input
+  border-color: transparent
+
+.origin
+  .form-input:focus
+    border-color: $green
+  
+  .input-group-addon
+    background-color: $green
+
+.destination
+  .form-input:focus
+    border-color: $red
+  
+  .input-group-addon
+    background-color: $red
+
+.search-form
+  position: absolute
+  margin: 10px 25px
+  width: 400px
+  height 180px
+  z-index: 1
+
+  fieldset
+    padding: 15px
+    border: 0
+    margin-bottom: 0
+
+.placard
+  position: relative
+  top: -38px
+  z-index: -1
+  margin-left: 55px
+  padding: 6px 12px
+  border-radius: 2px
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25)
+  background-color: rgba(255, 255, 255, 0.85)
+  color: $gray
+  transition: all 500ms
+
+  .units
+    display: inline-block
+    margin: 0 0 0 5px
+    padding: 0
+
+    > li
+      display: inline
+      padding: 0 3px
+
+      > a
+        display: inline-block
+        padding: 0 4px 2px
+        border-radius: 2px
+        line-height: 1.3
+        color: $blue-saturated-lighter
+
+        &:hover,
+        &:focus
+          background: $gray
+          color: #fff
+          text-decoration: none
+
+        &.active
+          background: $blue-saturated-lighter
+          color: #fff
+
+
+  .metric
+    margin-top: 6px
+    font-size: 13px
+    font-weight: bold
+    color: #333
+  
+.active .placard
+  top: 0
+  z-index: 0
+
+.suggestion-panel
+  position: absolute
+  top: 37px
+  z-index: 3
+  margin: 0
+  min-width: 316px
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3)
+  
+  li
+    padding: 9px 12px
+    background: #fff
+    border-top: 1px solid $gray-light
+    line-height: 1
+    white-space: nowrap
+    cursor: pointer
+    
+    &.active
+      background-color: $gray-lighter
+
+    &:first-child
+      border-top: 0
+    
+    &:last-child
+      border-bottom-left-radius: 2px
+      border-bottom-right-radius: 2px
+
+    > span
+      display: inline-block
+      margin-right: 1em
+      
+      &:last-child
+        margin-right: 0
+      
+  .code
+    width: 3em
+    color: $gray
+  
+  .city-state
+    font-size: 12px
+    color: $gray-darker
+
+
+

@@ -1,0 +1,18 @@
+{
+  "name": "airport-calc",
+  "version": "0.0.1",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "hjs-dev-server"
+  },
+  "author": "Liam",
+  "dependencies": {
+    "ampersand-app": "^1.0.3",
+    "ampersand-collection": "^1.4.5",
+    "google-maps": "^3.0.0",
+    "hjs-webpack": "^1.8.0",
+    "json-loader": "^0.5.2",
+    "react": "^0.13.2",
+    "react-google-maps": "^1.7.1"
+  }
+}

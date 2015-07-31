@@ -1,0 +1,37 @@
+{
+  "ORIG_COLOR": "#43bb6e",
+  "DEST_COLOR": "#e80044",
+  "searchForm": {
+    "TIMEOUT_LENGTH": 3000
+  },
+  "map": {
+    "center": {
+      "lat": 37.1,
+      "lng": -95.7
+    },
+    "zoom": 4,
+    "maxZoom": 14,
+    "disableDefaultUI": true,
+    "zoomControl": true,
+    "zoomControlOptions": {
+      "style": 1,
+      "position": 9
+    }
+  },
+  "polyline": {
+    "strokeColor": "#48f",
+    "strokeOpacity": 0.6,
+    "strokeWeight": 6,
+    "geodesic": true
+  },
+  "circleIcon": {
+    "path": 0,
+    "fillColor": "#fff",
+    "fillOpacity": 1,
+    "strokeColor": "#000",
+    "strokeOpacity": 1,
+    "strokeWeight": 2,
+    "scale": 4,
+    "animation": 2
+  }
+}
